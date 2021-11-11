@@ -1,0 +1,30 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "a basic chatroom with ws package for learning purposes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalekMneri/chatRoom.git"
+  },
+  "keywords": [
+    "chatroom",
+    "node",
+    "ws",
+    "webSocket"
+  ],
+  "author": "coldhands314",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MalekMneri/chatRoom/issues"
+  },
+  "homepage": "https://github.com/MalekMneri/chatRoom#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^8.2.3"
+  }
+}
